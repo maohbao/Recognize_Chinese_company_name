@@ -15,10 +15,10 @@ and save the topk checkpoints to `default_root_dir`.
 To evaluate them, use `evaluate.py`. The evaluate result is as follow:
 ```
 'span_f1': tensor(0.9509, device='cuda:0'),
- 'span_precision': tensor(0.9532, device='cuda:0'),
- 'span_recall': tensor(0.9487, device='cuda:0'),
- 'val_loss': tensor(0.0158, device='cuda:0')
- ```
+'span_precision': tensor(0.9532, device='cuda:0'),
+'span_recall': tensor(0.9487, device='cuda:0'),
+'val_loss': tensor(0.0158, device='cuda:0')
+```
 
 To predict, use `predict.py`. The predict result is as follow:
 ```
